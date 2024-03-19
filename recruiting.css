@@ -1,0 +1,141 @@
+:root{
+    --btn-green: rgb(60, 241, 99);
+    --hover-color: rgb(57, 57, 57);
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo-bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+*{
+    background: #000;
+    color: white;
+    font-family: 'NanumSquareNeo-Variable';
+    font-size: small;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    width: 120px;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.green_menu{
+    margin-right: 1rem;
+}
+
+.btn-style, .nav-menu{
+    margin-right: 0.5rem;
+    border-radius: 15px;
+    
+}
+
+.btn-style{
+    width: 80px;
+    height: 25px;
+    border: 1px solid var(--btn-green);
+    color: var(--btn-green);
+}
+
+.btn-style:hover{
+    background-color: var(--btn-green);
+    color: black;
+}
+
+.normal_menu{
+    display: flex;
+}
+
+.nav-menu{
+    margin-right: 1rem;
+    width: 85px;
+    height: 25px;
+    border: 0;
+}
+
+.nav-menu:hover{
+    background-color: var(--hover-color);
+}
+.main{
+    display: flex;
+}
+.main-container{
+    padding: 80px 20px 20px 20px;
+}
+#FAQ{
+    font-family: 'NanumSquareNeo-bold';
+    font-size: 30px;
+    padding: 10px 10px 30px 10px;
+}
+#FAQ_menu{
+    display: flex;
+    padding: 0 0 20px 0
+}
+
+.question_menu{
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    margin-right: 10px;
+    border: 0;
+    
+    
+}
+.short-wid{
+    width: 70px;
+}
+
+.q-menu1, .q-menu:hover{
+    color: black;
+    background-color: white;
+}
+.qna-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.qna{
+    padding: 0 0 20px 0;
+    margin: 10px 10px 10px;
+    border-radius: 8px;
+    background-color: var(--hover-color);
+}
+
+.question{
+    padding: 30px 0 10px 10px;
+    background-color: var(--hover-color);
+}
+
+.answer{
+    background-color: var(--hover-color);
+    padding: 10px 0 10px 30px;
+    color: rgb(169, 169, 169);
+}
