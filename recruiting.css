@@ -139,3 +139,7 @@
     padding: 10px 0 10px 30px;
     color: rgb(169, 169, 169);
 }
+
+#secondAnswer{
+    display: none;
+}
