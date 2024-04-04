@@ -52,6 +52,9 @@
     margin-right: 1rem;
 }
 
+.transformBtn:hover{
+    transform: translate(2px, 1px);
+}
 .btn-style, .nav-menu{
     margin-right: 0.5rem;
     border-radius: 15px;
